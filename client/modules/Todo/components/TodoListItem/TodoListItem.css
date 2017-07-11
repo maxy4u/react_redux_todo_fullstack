@@ -1,0 +1,17 @@
+.done_true {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.li_style {
+  list-style-type: decimal-leading-zero;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+[class*="TodoListItem"] input{
+	border: none;
+	background: transparent;
+}
+[class*="TodoListItem"] input:focus{
+	outline: none;
+}
